@@ -1,0 +1,251 @@
+.about{
+    .introduction{
+        display: flex;
+        justify-content: center;
+        P{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+    }
+
+    .first-image-about{
+        display: flex;
+        justify-content: center;
+        img{
+            height: 940px;
+        }
+    }
+
+    .first-text-about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        height: 40vh;
+        
+
+        .left-side{
+            
+        }
+
+        .right-side{
+            width: 100%;
+            p{
+                width: 80%;
+                font-size: 1.4rem;
+            }
+
+        }
+    }
+
+    .second-image-about{
+        img{
+            height: 940px;
+            width: 100%;
+        }
+    }
+
+    .second-text-about{
+        .quote{
+            display: flex;
+            justify-content: center;
+            font-size: 2.6rem;
+            p{
+                text-align: center;
+
+                width: 44%;
+            }
+
+        }
+
+
+        .author{
+            display: flex;
+            justify-content: center;
+            font-size: 1.4rem;
+
+        }
+    }
+
+    .info-about{
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .info-about-box{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 92%;
+            height: 80%; 
+            place-items: center;
+            background-color: #f7f2f2;
+            .portfolio{
+                width: 90%;
+                display: flex;
+                justify-content: center;
+                height: 70%;
+                align-items: center;
+                &:hover{
+                    background-color: white;
+                    cursor: pointer;
+                 }
+                .text-portfolio{
+                    a{
+                        text-decoration: none;
+                        font-size: 2rem;
+                        color: black;
+                        font-weight: bold;
+                    }
+
+
+
+                   p{
+                       
+                   }
+               }
+           }
+           .investments{
+               width: 90%;
+               display: flex;
+               justify-content: center;
+               height: 70%;
+               align-items: center;
+               &:hover{
+                   background-color: white;
+                   cursor: pointer;
+                }
+                .text-investments{
+                    a{
+                        text-decoration: none;
+                        font-size: 2rem;
+                        color: black;
+                        font-weight: bold;
+                    }
+
+                   p{
+
+                   }
+               }
+           }
+           .contact{
+                width: 90%;
+                display: flex;
+                justify-content: center;
+                height: 70%;
+                align-items: center;
+                &:hover{
+                    background-color: white;
+                    cursor: pointer;
+                 }
+               .text-contact{
+                    a{
+                        text-decoration: none;
+                        font-size: 2rem;
+                        color: black;
+                        font-weight: bold;
+
+                       
+                    }
+
+                   p{
+
+                   }
+               }
+           }
+        } 
+    }
+
+    .bottom-section-about{
+        .bottom-section-about-box{
+            .heading{
+                display: flex;
+                justify-content: center;
+            }
+
+            .picture-holder-box{
+                display: flex;
+                width: 100%;
+                justify-content: space-evenly;
+                
+                .picture-holder{
+                    display: flex;
+                    background-color: #f7f2f2;
+
+
+                    
+                    img{
+                        height: 200px;
+                        width: 200px;
+                        cursor: pointer;
+
+
+                        &:hover{
+                            transform: scale(.85);
+                            transition: ease-in-out .35s;
+                          }
+
+
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    .get-started-home{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        .image-get-started-home{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+            img{
+                width: 100%;
+                height: 850px;
+            }
+            
+        }
+        .text{
+            position: absolute;
+            p{
+                padding-bottom: 10px;
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+            
+            h1{
+                padding-bottom: 10px;
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+            
+            a{
+                display: flex;
+                padding-bottom: 10px;
+                justify-content: center;
+                color: white;
+                text-decoration: none;
+                font-size: 1.3rem;
+                text-decoration: underline tan;
+
+                &:hover{
+                    color: tan;
+                    transition: ease-in-out .3s;
+                }
+            }
+        }
+    
+    }
+
+}
