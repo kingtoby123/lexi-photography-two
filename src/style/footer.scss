@@ -1,15 +1,13 @@
 .footer{
-    min-height: 100vh;
+
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: bottom;
-    padding-top: 100px;
-    position: relative;
+    padding-top: 150px;
+    padding-bottom: 60px;
+
 
     .footer-box{
-        position: absolute;
-        bottom: 0;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -24,8 +22,7 @@
     }
 
     .nav-link-container{
-        position: absolute;
-        bottom: 0;
+        padding-top: 20px;
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -35,7 +32,7 @@
         .nav-links{
             display: flex;
             justify-content: space-evenly;
-            width: 40%;
+            width: 48%;
             font-size: .8rem;
 
              
@@ -49,7 +46,7 @@
                 &:hover{
                     color: tan;
                     cursor: pointer;
-                    transition: ease-in-out .3s;
+                    transition: ease-in-out .1s;
         
                 }
 
@@ -58,7 +55,7 @@
         }
 
         .icon{
-            width: 8%;
+            width: 8.5%;
             .instagram-icon{
                 a{
                     text-decoration: none;

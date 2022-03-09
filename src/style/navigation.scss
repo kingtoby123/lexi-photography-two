@@ -54,6 +54,19 @@
             width: 100%;
             height: 100%;
         }
+
+        .menuNav.menu-nav-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            
+        }
+        .menuNav.menu-nav-wrapper.text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         
     }
 

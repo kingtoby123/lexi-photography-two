@@ -24,17 +24,19 @@ export default class About extends Component {
                 </div>
 
                 <div className="first-text-about">
-                    <div className="left-side">
-                        <h1>
-                            Meet your new bestie
-                        </h1>
+                    <div className="container">
+                        <div className="left-side">
+                            <h1>
+                                Meet your new bestie
+                            </h1>
 
-                    </div>
+                        </div>
 
-                    <div className="right-side">
-                        <p>
-                            Hi! I am so glad you're here! My name is Lexi, and I am a couples, wedding & elopement photographer based in Salem, Oregon. I am a fun loving and candid style photographer that lives for documenting the love between people. I'm all about telling your love story authentically and freezing your moments in time. My main goal is for you to be able to feel what you felt in that moment 20 years from now. I am for the emotional, real and passionate lovers. 
-                        </p>
+                        <div className="right-side">
+                            <p>
+                                Hi! I am so glad you're here! My name is Lexi, and I am a couples, wedding & elopement photographer based in Salem, Oregon. I am a fun loving and candid style photographer that lives for documenting the love between people. I'm all about telling your love story authentically and freezing your moments in time. My main goal is for you to be able to feel what you felt in that moment 20 years from now. I am for the emotional, real and passionate lovers. 
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -92,7 +94,7 @@ export default class About extends Component {
 
                             <div className="text-contact">
 
-                                <a href="/portfolio">Contact</a>
+                                <a href="/contact">Contact</a>
 
 
                                 <p>

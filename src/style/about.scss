@@ -2,6 +2,7 @@
     .introduction{
         display: flex;
         justify-content: center;
+        padding-top: 50px;
         P{
             font-size: 2rem;
             font-weight: bold;
@@ -12,29 +13,37 @@
     .first-image-about{
         display: flex;
         justify-content: center;
+        padding-top: 90px;
         img{
             height: 940px;
         }
     }
 
     .first-text-about{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        place-items: center;
-        height: 40vh;
-        
+        height: 45vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            place-items: center;
+            width: 80%;
 
-        .left-side{
+
             
-        }
-
-        .right-side{
-            width: 100%;
-            p{
-                width: 80%;
-                font-size: 1.4rem;
+            
+            .left-side{
+                
             }
-
+            
+            .right-side{
+                p{
+                    width: 65%;
+                    font-size: 1.2rem;
+                }
+                
+            }
         }
     }
 
@@ -46,6 +55,7 @@
     }
 
     .second-text-about{
+        padding-top: 100px;
         .quote{
             display: flex;
             justify-content: center;
@@ -79,7 +89,7 @@
             width: 92%;
             height: 80%; 
             place-items: center;
-            background-color: #f7f2f2;
+            background-color: white;
             .portfolio{
                 width: 90%;
                 display: flex;
@@ -87,9 +97,10 @@
                 height: 70%;
                 align-items: center;
                 &:hover{
+                    border-radius: 3px solid tan;
                     background-color: white;
                     cursor: pointer;
-                 }
+                }
                 .text-portfolio{
                     a{
                         text-decoration: none;
@@ -162,7 +173,7 @@
                 display: flex;
                 justify-content: center;
             }
-
+            
             .picture-holder-box{
                 display: flex;
                 width: 100%;
